@@ -1,0 +1,32 @@
+#search-container {
+    margin-bottom: 20px;
+  }
+  
+  #search-history-container {
+    margin-top: 20px;
+  }
+  
+  #search-history {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #search-history li {
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  #current-image-container {
+    background-color: #000;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #current-image-container img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
